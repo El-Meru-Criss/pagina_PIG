@@ -1,0 +1,91 @@
+:root {
+
+--COLOR-OSCURO: #212529;
+--VERDE-GUAY: #198754;
+--AMARILLO-GUAY: #ffb20b;
+--BORDE-AMARILLO: #ffc10799;
+--GRIS-NO-SAD: #908f8f;
+--GRIS-SAD: #6c757d;
+--GRIS-HEADER: #353535;
+
+}
+
+.card {
+
+    background-color: var(--COLOR-OSCURO);
+    color: white;
+    border: 1px solid var(--BORDE-AMARILLO);
+
+}
+
+.list-group-item.list-group-item-action {
+
+    background-color: var(--COLOR-OSCURO);
+    color: var(--GRIS-NO-SAD);
+    
+}
+
+
+
+.list-group-item.list-group-item-action.active {
+
+    background-color: var(--AMARILLO-GUAY);
+    border-color: var(--BORDE-AMARILLO);
+    color: white;
+
+}
+
+.list-group-item.list-group-item:hover {
+
+    color: white;
+
+}
+
+.list-group-item.list-group-item-action:disabled {
+
+    color: var(--GRIS-SAD);
+
+}
+
+.card {
+
+    background-color: var(--COLOR-OSCURO);
+
+}
+
+#lista {
+
+    background-color: transparent;
+    padding: 0px;
+}
+
+.cantidades {
+
+    background-color: var(--COLOR-OSCURO);
+    color: var(--AMARILLO-GUAY);
+    border: 1px solid var(--BORDE-AMARILLO);
+    width: 50px;
+    text-align: center;
+
+}
+
+.card-header, .card-footer {
+
+    background-color: var(--GRIS-HEADER);
+
+}
+
+.offcanvas {
+
+background-color: var(--COLOR-OSCURO);
+color: wheat;
+text-align: center;
+
+}
+
+
+.offcanvas-header {
+
+    display: block;
+
+}

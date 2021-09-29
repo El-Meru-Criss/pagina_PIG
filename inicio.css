@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+body{
+    background-color: #0C0627;
+}
+
+#contenedor{
+    width: 1280px;
+    height: 950px;
+    background-color: #0C0627;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+#header{
+    width: 100%;
+    height: auto;
+    background-color: #ffb20b;
+    margin: 0.5em auto;
+    padding: 0.5em auto;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/989/551/789/5c1fa601f065a-wallpaper-preview.jpg);
+    
+}
+#nav{
+    width: 100%;
+    height: 5%;
+    background-color: #023047;
+    margin: 0.5em auto;
+    padding: 0.5em auto;
+    color: aliceblue;
+}
+#contenido{
+    width: 100%;
+    height: 52%;
+    background-color: #ffb20b;
+    margin: 0.5em auto;
+    padding: 0.5em auto;
+    
+    
+}
+
+#izquierda {
+    width: 15%;
+    height: 93%;
+    background-color: #0C0627;
+    float: left;
+    margin: 0.5em;
+    padding: 0.5em;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+#articulos{
+    width: 68%;
+    height: 93%;
+    background-color: #0C0627;
+    float: left;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+    
+#lateral{
+    width: 9%;
+    height: 93%;
+    background-color: #0C0627;
+    float: right;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+#footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #ffb20b;
+    margin: 0.5em auto;
+    padding: 0.5em ;
+    color: aliceblue;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/989/551/789/5c1fa601f065a-wallpaper-preview.jpg);
+    
+    
+}
+
+
+#barra_busqueda{
+
+    background-color: white;
+    height: 30px;
+    width: 50%;
+    margin: 0.5em;
+    float: left;
+    filter: invert();
+
+
+}
+
+.botones{
+    background-color: rgb(255, 255, 255);
+    float: right;
+   
+    margin: 6px;
+    filter: invert();
+    
+}
+
+#BOTONES {
+    height: 30px;
+    width: 20%;
+    float: right;
+    
+}
+
+#logo{
+
+    margin: 0.5em auto;
+    padding: 0.5em auto;
+    filter: invert();
+
+}
+
+.redes{
+
+    margin: 30px;
+
+}
+
+
+
+#caja{
+    color: white;
+    width: 50%;
+    height: 57%;
+    margin: 1em auto;
+    padding: 0.5em auto;
+    background-color: #ffb20b;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/989/551/789/5c1fa601f065a-wallpaper-preview.jpg);
+    
+    border-radius: 3%;
+    backdrop-filter: opacity(20%);
+    
+}
+
+#regreso {
+    filter: invert(100%);
+    margin: 0.5em;
+}
+
+#carrito{
+   
+    
+    margin: 0.5em;
+}
+
+#lista {
+
+    width: 60%;
+    height: 69%;
+    margin: 0.5em;
+    background-color: #ffb20b;
+    float: left;
+    padding: 0.5em;
+
+}
+
+#producto {
+
+    height: 20%;
+    width: auto;
+    background-color: #0C0627; 
+    padding: 0.5em;
+    color: white;
+    margin: 0.1em;
+    
+}
+
+#monto {
+
+height: auto;
+width: 33%;
+margin: 1em;
+background-color: #ffb20b;
+float: right;
+padding: 0.5em;
+
+}
+
+#boton_compra {
+
+    height: 50px;
+    width: 300px;
+    filter: invert(100%);
+
+}
+
+#p_i{
+    float: left;
+}
+
+#p_d{
+    float: right;
+    width: 78%;
+    height: 100%;
+}
+
+#seccion{
+    width: 78%;
+    
+}
+
+.elementos{
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 20px;
+    width: 74px;
+}
+
+
+
+
+
+
