@@ -89,3 +89,33 @@ text-align: center;
     display: block;
 
 }
+
+
+@media screen and (max-width: 780px) {
+
+    #izquierda{
+
+        width: 24%;
+
+
+    }
+
+    .list-group-item.list-group-item-action.active {
+
+        padding: 0.5rem;
+
+    }
+
+    #lista {
+
+        width: revert;
+
+    }
+
+    .card.text-center {
+
+        min-width: revert;
+
+    }
+    
+}

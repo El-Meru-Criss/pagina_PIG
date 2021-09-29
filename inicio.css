@@ -12,11 +12,13 @@ body{
 }
 
 #contenedor{
-    width: 1280px;
-    height: 950px;
+    width: 100%;
+    max-width: 1280px;
+    
     background-color: #0C0627;
     margin: 0.5em auto;
     padding: 0.5em;
+    display: flow-root;
 }
 #header{
     width: 100%;
@@ -41,6 +43,7 @@ body{
     background-color: #ffb20b;
     margin: 0.5em auto;
     padding: 0.5em auto;
+    display: flow-root;
     
     
 }
@@ -219,6 +222,8 @@ padding: 0.5em;
     height: 20px;
     width: 74px;
 }
+
+
 
 
 
