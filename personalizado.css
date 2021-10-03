@@ -83,10 +83,9 @@ text-align: center;
 
 }
 
+.fa-facebook,.fa-instagram,.fa-whatsapp {
 
-.offcanvas-header {
-
-    display: block;
+    color: var(--AMARILLO-GUAY);
 
 }
 
@@ -95,7 +94,8 @@ text-align: center;
 
     #izquierda{
 
-        width: 24%;
+        width: 100%;
+        margin: inherit;
 
 
     }
@@ -115,6 +115,12 @@ text-align: center;
     .card.text-center {
 
         min-width: revert;
+
+    }
+
+    #articulos {
+
+        width: auto;
 
     }
     
