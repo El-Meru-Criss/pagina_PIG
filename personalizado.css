@@ -96,6 +96,30 @@ text-align: center;
 
 }
 
+.registro_usuario{
+
+position: absolute;
+width: min-content;
+
+}
+
+.boton_registro {
+
+    background-color: var(--GRIS-HEADER);
+    color: var(--AMARILLO-GUAY);
+    margin: 0.5em;
+
+
+}
+
+@media screen and (max-width: 991px) {
+    
+    .registro_usuario{
+        position: relative;
+    }
+
+}
+
 
 
 

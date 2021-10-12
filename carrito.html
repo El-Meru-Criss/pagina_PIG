@@ -30,7 +30,20 @@
                   <a class="nav-link" href="carrito.html"> <i class="fas fa-shopping-cart"></i> carrito</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> <i class="far fa-id-badge"></i> perfil</a>
+                  <a class="nav-link" data-bs-toggle="collapse" href="#user" role="button"> <i class="far fa-id-badge"></i> perfil</a>
+
+                      <div class="collapse" id="user">
+                        <div class="card card-body registro_usuario">
+                          <center>
+                            <i class="fas fa-user-circle fa-2x"></i> <br> <hr>
+                              <form action="#">
+                                <input type="text" name="user" placeholder="Usuario" class="boton_registro">
+                                <input type="password" name="pass" placeholder="Password" class="boton_registro">
+                              </form>
+                            <button type="button" class="btn btn-outline-info">Iniciar Secion</button>
+                          </center>
+                        </div>
+                      </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"> <i class="fas fa-book"></i> historial</a>
@@ -70,7 +83,7 @@
         <br>
         <center>
           <div id="logo">
-            <a href="inicio.html"><img src="logo.jpg" height="150px" width="150px"></a>  
+            <a href="inicio.html"><img src="logo.jpg" height="150px" width="150px" id="logo_img"></a>  
           </div>  
         </center>
         <br>

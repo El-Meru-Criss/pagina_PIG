@@ -122,6 +122,10 @@ body{
 
     margin: 0.5em auto;
     padding: 0.5em auto;
+    
+
+} #logo_img {
+
     filter: invert();
 
 }
