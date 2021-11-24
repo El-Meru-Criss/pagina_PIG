@@ -15,7 +15,18 @@
     background-color: var(--COLOR-OSCURO);
     color: white;
     border: 1px solid var(--BORDE-AMARILLO);
+    
 
+}
+
+.card-productosCRISS {
+    max-width: 32.9%;
+    display: inline-block;
+}
+
+.img-productos {
+    width: 25vw;
+    height: 15vw;
 }
 
 .list-group-item.list-group-item-action {
@@ -103,6 +114,15 @@ width: min-content;
 
 }
 
+.sesion_activa {
+    width: 20vw;
+}
+
+.CRISS_img_tarjetas{
+    width: 100%;
+    height: 100%;
+}
+
 .boton_registro {
 
     background-color: var(--GRIS-HEADER);
@@ -112,11 +132,21 @@ width: min-content;
 
 }
 
+.modal_personalizada {
+    max-width: none;
+}
+
+#contenido_producto_editar {
+    display: contents;
+}
+
 @media screen and (max-width: 991px) {
     
     .registro_usuario{
         position: relative;
+        width: auto;
     }
+    
 
 }
 
@@ -155,6 +185,16 @@ width: min-content;
 
         width: auto;
 
+    }
+
+    .card-productosCRISS {
+        width: 100%;
+        max-width: none;
+    }
+
+    .img-productos {
+        width: 100%;
+        height: auto;
     }
 
     #producto_carrucel {

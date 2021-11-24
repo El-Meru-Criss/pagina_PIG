@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="inicio.css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="package/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="personalizado.css">
     <script src="https://kit.fontawesome.com/43f4b789f9.js" crossorigin="anonymous"></script>
     <title>Carrito</title>
@@ -30,10 +32,10 @@
                   <a class="nav-link" href="carrito.html"> <i class="fas fa-shopping-cart"></i> carrito</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="collapse" href="#user" role="button"> <i class="far fa-id-badge"></i> perfil</a>
+                  <a class="nav-link" data-bs-toggle="collapse" onclick="menu_usuario()" href="#user" role="button"> <i class="far fa-id-badge"></i> perfil</a>
 
                       <div class="collapse" id="user">
-                        <div class="card card-body registro_usuario">
+                        <!-- <div class="card card-body registro_usuario">
                           <center>
                             <i class="fas fa-user-circle fa-2x"></i> <br> <hr>
                               <form action="#">
@@ -42,14 +44,14 @@
                               </form>
                             <button type="button" class="btn btn-outline-info">Iniciar Secion</button>
                           </center>
-                        </div>
+                        </div> -->
                       </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"> <i class="fas fa-book"></i> historial</a>
                 </li>                
                 <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample"> <i class="fas fa-users"></i> Quienes Somos</a>
+                  <a class="nav-link" onclick="identidad()" data-bs-toggle="offcanvas"  > <i class="fas fa-users"></i> Quienes Somos</a>
                 </li>
               </ul>
               <form class="d-flex">
@@ -93,9 +95,9 @@
 
       </div>
 
-        
+        <div id="contenido_carrito">
 
-          <div id="lista">
+          <!-- <div id="lista">
             
             <div class="card mb-3" style="max-width: 100%;">
               <div class="row g-0">
@@ -106,7 +108,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Nombre del Producto</h5>
                     <p class="card-text">Precio Unidad:         $18.000<br>Cantidad:      <input class="cantidades" type="number"></p>
-                    <button type="button" class="btn btn-outline-danger" style="float: right"><i class="fas fa-trash-alt"></i></button>
+                    <button type="button" class="btn btn-outline-danger" onclick="Eliminar()" style="float: right"><i class="fas fa-trash-alt"></i></button>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                   </div>
                 </div>
@@ -155,7 +157,23 @@
               <h5 class="card-title">Total: $ 59.000</h5>
               <p class="card-text">Cantidad De Articulos A Comprar:  12</p>
               
-              <button type="button" class="btn btn-outline-success"><i class="fas fa-dollar-sign"></i> Buy All</button>
+              <button type="button" onclick="Compra()" class="btn btn-outline-success"><i class="fas fa-dollar-sign"></i> Buy All</button>
+            </div>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+
+          </div> -->
+
+          <div class="card text-center" style="margin-top: 1em;">
+            <div class="card-header">
+              Carrito De Compras
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Actualizar carrito de compras</h5>
+              <p class="card-text">Para visualizar los productos que has agregado, dale al siguiente boton para actualizar tus productos</p>
+              
+              <button type="button" onclick="carrito_actualizar()" class="btn btn-outline-primary"><i class="fas fa-sync"></i> Actualizar</button>
             </div>
             <div class="card-footer text-muted">
               2 days ago
@@ -163,7 +181,7 @@
 
           </div>
 
-
+        </div>
           
           
 
@@ -175,6 +193,8 @@
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="package/dist/sweetalert2.js"></script>
+    <script src="CRISS.js"></script>
     
 </body>
 </html>

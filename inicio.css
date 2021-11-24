@@ -61,12 +61,13 @@ body{
 
 
 #articulos{
-    width: 68%;
+    width: 80%;
     height: 93%;
     background-color: #0C0627;
     float: left;
     margin: 0.5em;
     padding: 0.5em;
+    display: block;
 }
     
 #lateral{
@@ -235,7 +236,7 @@ padding: 0.5em;
     float: left;
     padding: 7px;
     margin: 0.5em;
-    display: inline-block;
+    /* display: inline-block; */
 
 }
 
